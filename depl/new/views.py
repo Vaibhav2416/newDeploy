@@ -4,3 +4,6 @@ from django.http import HttpResponse
 
 def home(request):
     return HttpResponse("This is Home")
+
+def new(request):
+    return HttpResponse("Updating Response here")
